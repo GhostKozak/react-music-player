@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.player {
+  min-height: 20vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.time-control {
+  width: 50%;
+  display: flex;
+}
+.time-control input {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+.time-control p {
+  padding: 1rem;
+}
+
+.play-control {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 30%;
+}
+.play-control svg {
+  cursor: pointer;
+}
+
+.song-container {
+  min-height: 60vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
