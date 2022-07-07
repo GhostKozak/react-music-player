@@ -54,6 +54,12 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .library {
+        width: 100%;
+    }
+}
+
 /* Scroll Style */
 
 * {
