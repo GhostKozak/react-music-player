@@ -1,4 +1,5 @@
-const Song = ({currentSong}) => {
+const Song = ({currentSong , isPLaying}) => {
+
     return(
         <div className="song-container">
             <img src={currentSong.cover} alt={currentSong.name} />
